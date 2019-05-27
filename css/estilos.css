@@ -1,0 +1,128 @@
+body, html{
+    margin: 0;
+    height: 100%;
+ }
+header{
+    height: 65px;
+    background-color: #D973B6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#identificador{
+    margin-left: 5px;
+}
+nav > a{
+    margin-right: 25px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+}
+a:hover{
+    color: violet;
+}
+h1{
+    margin: 0px;
+    color: #524697;
+}
+.seccion1, .seccion2, .seccion3{
+    height: 40%;
+	padding: 5%;
+	font-size: 16px;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+.seccion1{
+    background-color: #EAEDFF;
+}
+.seccion2{
+    background-color: #EAEDFF;
+	display: flex;
+	flex-direction: column;
+}
+.seccion3{
+    background-color: #EAEDFF;
+}
+.cuadro{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
+}
+.cuadro a{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+.cuadro :hover{
+    color:#D973B6;
+}
+@media only screen and (max-width: 800px){
+.cuadro{
+  flex-direction:column;
+  height: auto; 
+}
+	.seccion2{
+		height: auto; 
+	}
+}
+
+.divitem{
+	background-color: #F7C3DB;
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+	border-radius: 50%; 
+	
+}
+.texto-seccion{
+    line-height: 25px;
+    color:#524697;
+}
+hr{
+    border: 1px dotted white;
+}
+.textoimagen{
+    font-family: 'Rouge Script', cursive;
+    font-size:35px;
+    color:#524697;
+    background-color: rgba(255,255,255,0.7);
+    padding: 15px;
+}
+.img1, .img2, .img3, .img4, .img5{
+    opacity: 0.7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.img1{
+    background-image: url(https://i.imgur.com/3QAL68Z.jpg);
+    height: 100%;
+}
+.img2{
+    background-image: url(https://imgur.com/qIsmfzU.jpg);
+    height: 50%;
+}
+.img3{
+    background-image: url(https://imgur.com/y72tCXI.jpg);
+    height: 50%;
+}
+.img4{
+    background-image: url(https://imgur.com/c4iFURE.jpg);
+    height: 50%; 
+}
